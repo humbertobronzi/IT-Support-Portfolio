@@ -84,7 +84,13 @@ Investigate the availability of the official manufacturer driver package.
 
 ## Root Cause Analysis
 
----
+The investigation determined that the operating system was using the generic Microsoft High Definition Audio Driver instead of the OEM Realtek driver provided by Avell.
+
+Although the generic driver provided basic audio functionality, it did not correctly manage the hardware state transition after the notebook resumed from sleep mode.
+
+As a result, Windows continued to recognize the audio device, but the audio subsystem failed to restore normal sound output until the operating system was restarted.
+
+Installing the official Realtek OEM driver restored proper communication between Windows and the audio hardware, permanently resolving the issue.
 
 ## Corrective Actions
 
