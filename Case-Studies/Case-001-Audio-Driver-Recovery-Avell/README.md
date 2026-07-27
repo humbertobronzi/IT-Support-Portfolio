@@ -94,7 +94,15 @@ Installing the official Realtek OEM driver restored proper communication between
 
 ## Corrective Actions
 
----
+| Step | Action | Purpose |
+|------|--------|---------|
+| 1 | Created a backup of the installed drivers using `pnputil`. | Ensure a recovery option before making changes to the driver configuration. |
+| 2 | Downloaded the official Realtek audio driver package from the Avell support website. | Obtain the OEM-supported driver compatible with the notebook model. |
+| 3 | Installed the official Realtek driver package. | Replace the generic Microsoft High Definition Audio Driver with the OEM driver. |
+| 4 | Restarted the notebook after the installation. | Load the new driver and initialize the updated audio stack. |
+| 5 | Verified the installed driver information in Device Manager. | Confirm that the OEM driver was correctly installed. |
+| 6 | Performed functional audio tests after reboot. | Validate that audio playback was restored. |
+| 7 | Performed an overnight sleep and resume test. | Confirm that the issue no longer occurred after resuming from sleep mode. |
 
 ## Validation
 
