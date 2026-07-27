@@ -34,7 +34,13 @@ The issue could only be temporarily resolved by restarting the operating system,
 
 ## Symptoms
 
----
+- Audio icon displayed normally in the Windows taskbar.
+- No audio output from the internal speakers.
+- No audio output from external audio devices.
+- No warning messages or error notifications were displayed.
+- Windows detected the audio device correctly.
+- Audio functionality was temporarily restored after restarting the system.
+- The issue consistently occurred after the notebook resumed from sleep mode.
 
 ## Initial Investigation
 
