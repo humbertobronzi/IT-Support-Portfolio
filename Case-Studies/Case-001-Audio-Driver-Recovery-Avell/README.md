@@ -26,7 +26,11 @@ The issue was resolved by installing the official Realtek driver package from Av
 
 ## Problem Description
 
----
+The notebook intermittently lost all audio functionality after resuming from sleep mode.
+
+The audio device remained visible in Windows, and the system displayed the normal audio icon without any warning messages or error indicators. However, no sound was produced through the speakers or headphones.
+
+The issue could only be temporarily resolved by restarting the operating system, indicating that the problem occurred during the transition from sleep mode rather than during system startup.
 
 ## Symptoms
 
