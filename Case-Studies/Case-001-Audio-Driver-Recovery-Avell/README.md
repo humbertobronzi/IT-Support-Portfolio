@@ -44,7 +44,43 @@ The issue could only be temporarily resolved by restarting the operating system,
 
 ## Initial Investigation
 
+### Step 1 — Verify the Operating System Detection
+
+**Objective**
+
+Confirm whether Windows was correctly detecting the installed audio hardware.
+
+**Action**
+
+Opened Device Manager and inspected all audio devices, drivers, and hardware status.
+
+**Result**
+
+Windows successfully detected the audio hardware, and no warning icons or hardware errors were present.
+
+**Decision**
+
+Since the hardware was correctly detected, the investigation shifted to the installed audio driver.
+
 ---
+
+### Step 2 — Identify the Installed Audio Driver
+
+**Objective**
+
+Determine whether Windows was using the OEM audio driver or a generic Microsoft driver.
+
+**Action**
+
+Collected driver information using Device Manager and Windows command-line diagnostic tools.
+
+**Result**
+
+The notebook was using the Microsoft High Definition Audio Driver instead of the official Realtek OEM driver provided by Avell.
+
+**Decision**
+
+Investigate the availability of the official manufacturer driver package.
 
 ## Root Cause Analysis
 
