@@ -12,7 +12,17 @@ The issue was resolved by installing the official Realtek driver package from Av
 
 ## Environment
 
----
+| Component | Details |
+|----------|---------|
+| Device | Avell LIV 62 RTX |
+| Operating System | Windows 11 Pro 25H2 |
+| Processor | Intel Core i7-10750H |
+| Graphics | NVIDIA GeForce RTX 2060 (6 GB) |
+| Integrated Graphics | Intel UHD Graphics |
+| Audio Hardware | Realtek Audio (OEM) |
+| Audio Driver (Before Resolution) | Microsoft High Definition Audio Driver |
+| Audio Driver (After Resolution) | Official Realtek Driver provided by Avell |
+| Additional Software | THX Spatial Audio |
 
 ## Problem Description
 
