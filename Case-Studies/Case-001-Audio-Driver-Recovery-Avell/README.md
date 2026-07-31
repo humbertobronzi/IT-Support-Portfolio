@@ -161,3 +161,11 @@ The investigation was supported by screenshots and command outputs collected dur
 | Driver Verification | Confirmed that the OEM Realtek driver was active after the installation. | ✅ |
 | Functional Audio Test | Verified normal audio playback after restarting the notebook. | ✅ |
 | Overnight Sleep Test | Confirmed that audio continued working after resuming from sleep mode the following day. | ✅ |
+
+## References
+
+- Microsoft Learn — Device Manager documentation
+- Microsoft Learn — PnPUtil command-line syntax
+- Microsoft Learn — Windows Driver Management
+- Avell Support — Official driver package for Avell LIV 62
+- Realtek Semiconductor — Audio driver information
