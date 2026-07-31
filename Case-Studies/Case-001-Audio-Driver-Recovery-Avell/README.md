@@ -120,7 +120,11 @@ The issue could no longer be reproduced after the OEM driver installation, indic
 
 ## Lessons Learned
 
----
+- Always verify whether Windows is using the OEM driver before assuming a hardware failure.
+- Generic Microsoft drivers may provide basic functionality but do not always support advanced hardware features such as power state transitions.
+- Creating a driver backup before making system changes reduces risk and provides a safe recovery path.
+- Validating the solution through real-world testing, including an overnight sleep cycle, provides greater confidence than relying only on an immediate functional test.
+- A structured troubleshooting process improves decision-making and reduces unnecessary changes during incident resolution.
 
 ## Technical Skills Demonstrated
 
