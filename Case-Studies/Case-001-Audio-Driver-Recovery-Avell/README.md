@@ -141,6 +141,11 @@ The issue could no longer be reproduced after the OEM driver installation, indic
 
 ## Commands Used
 
----
+| Command | Purpose |
+|----------|---------|
+| `driverquery \| findstr /i "realtek thx"` | Verify whether the Realtek and THX drivers were installed and recognized by Windows. |
+| `pnputil /export-driver * C:\BackupDrivers` | Create a complete backup of all installed third-party drivers before making changes. |
+| Device Manager | Verify the installed audio device, driver provider, and driver version. |
+| Driver Details | Confirm that the Realtek OEM driver replaced the generic Microsoft High Definition Audio Driver. |
 
 ## References
