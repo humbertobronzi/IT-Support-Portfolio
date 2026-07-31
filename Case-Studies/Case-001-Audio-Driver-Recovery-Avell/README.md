@@ -148,4 +148,16 @@ The issue could no longer be reproduced after the OEM driver installation, indic
 | Device Manager | Verify the installed audio device, driver provider, and driver version. |
 | Driver Details | Confirm that the Realtek OEM driver replaced the generic Microsoft High Definition Audio Driver. |
 
-## References
+## Evidence
+
+The investigation was supported by screenshots and command outputs collected during the troubleshooting process.
+
+| Evidence | Description | Status |
+|-----------|-------------|--------|
+| Device Manager | Verified that Windows detected the audio device without hardware errors. | ✅ |
+| Driver Provider | Confirmed that Windows was initially using the Microsoft High Definition Audio Driver. | ✅ |
+| Driver Backup | Successfully backed up installed third-party drivers using `pnputil`. | ✅ |
+| Realtek Driver Installation | Installed the official Realtek OEM audio driver downloaded from the Avell support website. | ✅ |
+| Driver Verification | Confirmed that the OEM Realtek driver was active after the installation. | ✅ |
+| Functional Audio Test | Verified normal audio playback after restarting the notebook. | ✅ |
+| Overnight Sleep Test | Confirmed that audio continued working after resuming from sleep mode the following day. | ✅ |
