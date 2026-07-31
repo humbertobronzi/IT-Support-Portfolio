@@ -126,9 +126,18 @@ The issue could no longer be reproduced after the OEM driver installation, indic
 - Validating the solution through real-world testing, including an overnight sleep cycle, provides greater confidence than relying only on an immediate functional test.
 - A structured troubleshooting process improves decision-making and reduces unnecessary changes during incident resolution.
 
-## Technical Skills Demonstrated
+## Technical Competencies Demonstrated
 
----
+| Competency | Description |
+|------------|-------------|
+| Windows Troubleshooting | Systematic investigation of an operating system issue using a structured troubleshooting methodology. |
+| Root Cause Analysis | Identified the underlying cause instead of only addressing the observed symptoms. |
+| Driver Management | Verified, backed up, replaced, and validated Windows audio drivers. |
+| Windows Device Manager | Inspected hardware status, driver providers, and device properties. |
+| PowerShell & Command Line | Used built-in Windows tools to collect diagnostic information and back up installed drivers. |
+| Risk Management | Created a complete driver backup before making system changes. |
+| Technical Documentation | Documented the entire investigation, corrective actions, and validation process. |
+| Validation & Testing | Confirmed the solution through functional testing and an overnight sleep/resume validation. |
 
 ## Commands Used
 
