@@ -106,7 +106,17 @@ Installing the official Realtek OEM driver restored proper communication between
 
 ## Validation
 
----
+The solution was validated through multiple functional tests after installing the official Realtek OEM driver.
+
+The following checks were successfully completed:
+
+- Confirmed that the official Realtek driver was installed and active in Device Manager.
+- Verified that Windows correctly detected the audio hardware without errors.
+- Tested audio playback through the notebook speakers.
+- Restarted the system and confirmed that audio functionality was preserved.
+- Performed an overnight sleep and resume test, confirming that the audio continued to function correctly after resuming from sleep mode.
+
+The issue could no longer be reproduced after the OEM driver installation, indicating that the root cause had been successfully resolved.
 
 ## Lessons Learned
 
