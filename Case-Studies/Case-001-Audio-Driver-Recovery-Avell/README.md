@@ -169,3 +169,11 @@ The investigation was supported by screenshots and command outputs collected dur
 - Microsoft Learn — Windows Driver Management
 - Avell Support — Official driver package for Avell LIV 62
 - Realtek Semiconductor — Audio driver information
+
+## Engineering Approach
+
+This repository documents real-world technical investigations performed using a structured engineering methodology.
+
+Artificial Intelligence is used as a collaborative engineering assistant to support research, validate hypotheses, review technical documentation, and improve decision-making.
+
+All investigations, testing, implementation, and validation are performed manually in real environments.
