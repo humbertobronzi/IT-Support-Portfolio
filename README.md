@@ -60,6 +60,6 @@ Every project follows these principles:
 
 ## Repository Mission
 
-To continuously develop practical engineering skills through real-world projects, structured troubleshooting, technical documentation, and lifelong learning.
+To continuously develop engineering expertise through real-world projects, structured troubleshooting, technical documentation, and lifelong learning.
 
 Every project published in this repository reflects a commitment to understanding systems, solving problems methodically, and sharing knowledge with the engineering community.
