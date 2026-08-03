@@ -44,3 +44,9 @@ Every project follows these principles:
 - **Document every investigation** — Knowledge becomes valuable only when it can be shared and reused.
 - **Continuous learning** — Every completed project should improve future troubleshooting and engineering decisions.
 - **Use AI responsibly** — Artificial Intelligence is used to accelerate research, validate hypotheses, improve technical documentation, and support engineering decision-making while maintaining full human ownership of implementation, testing, and results.
+
+## Mission
+
+To continuously develop practical engineering skills through real-world projects, structured troubleshooting, technical documentation, and lifelong learning.
+
+Every project published in this repository reflects a commitment to understanding systems, solving problems methodically, and sharing knowledge with the engineering community.
